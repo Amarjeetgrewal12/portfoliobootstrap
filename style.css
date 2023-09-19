@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000;
+    font-size: 1.1em;
+    padding: 0.8em;
+}
+
+.navbar {
+    border-bottom: 5px solid #3a0ca3;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    background-color: #3a0ca3;
+    color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        padding-top: 0.5em;
+    }
+}
+
+.main {
+    background: url(image1\ \(1\).jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.main h3 {
+
+
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: rgb(239, 60, 20);
+}
+small{
+    color: rgb(8, 8, 8);
+}
+.main h6 {
+    font-size: 1.4rem;
+    color: rgb(6, 18, 243);
+    text-transform: uppercase;
+    border-bottom: 3px solid red;
+    width: 40%;
+    margin-top: 20px;
+
+}
+
+.col-lg-6 {
+    position: absolute;
+    top: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main .bt1 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(215, 19, 254);
+    color: rgb(249, 248, 248);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.main .bt2 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(246, 246, 246);
+    color: rgb(235, 14, 14);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.col-lg-6 {
+    position: absolute;
+    bottom: 20%;
+    left: 2%;
+}
+
+.main .bt1:hover {
+    background-color: rgb(199, 17, 236);
+    color: rgb(243, 243, 243);
+
+}
+
+.main .bt2:hover {
+    background-color: rgb(199, 17, 236);
+    color: rgb(243, 243, 243);
+
+}
+
+.about img {
+    -webkit-box-shadow: 10px -52px 144px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px -52px 144px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px -52px 144px -8px rgba(0, 0, 0, 0.75);
+
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.progress {
+    background-color: rgb(98, 97, 97);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+
+}
+
+.progress p {
+    color: white;
+    padding: 3px;
+}
+
+.loading {
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pro-value2 {
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+
+}
+
+.pro-value3 {
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4 {
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0;
+
+    }
+
+    100% {
+        width: 98%;
+    }
+
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+
+    }
+
+    100% {
+        width: 89%;
+    }
+
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+
+    }
+
+    100% {
+        width: 75%;
+    }
+
+}
+
+@keyframes load4 {
+    0% {
+        width: 0;
+
+    }
+
+    100% {
+        width: 85%;
+    }
+
+}
+
+.btn1 {
+    margin-top: 20px;
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.btn2 {
+    margin-top: 20px;
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn2:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.card {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -9px 6px 80px -29px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px 6px 80px -29px rgba(0, 0, 0, 0.75);
+    box-shadow: -9px 6px 80px -29px rgba(0, 0, 0, 0.75);
+
+
+
+}
+
+.card p {
+    color: grey;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+.card:hover .circle {
+    background-color: black;
+    color: white;
+}
